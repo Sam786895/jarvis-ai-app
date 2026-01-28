@@ -22,7 +22,6 @@ jobs:
     sudo apt install -y zip unzip openjdk-17-jdk android-sdk-platform-tools android-sdk-build-tools
     pip install --upgrade pip
     pip install buildozer cython
-    - 
 
     - name: Build APK
       run: |
